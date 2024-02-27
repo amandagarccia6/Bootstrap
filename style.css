@@ -1,0 +1,63 @@
+* {/*TODO OS MEUS CODIGOS*/
+margin: 0;
+padding:0;
+
+}
+
+header {
+    background-color: brown;
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* padding é espaçamento interno */
+    padding: 50px;
+
+    /*display é o modo de exibição */
+    display: flex;
+    /* jcc é o alinhamento horizontal */
+    justify-content: center;
+    /* aic é o alinhamento vertical */
+    align-items: center;
+    margin: 0px
+}
+
+body{background-color: aliceblue;}
+nav{color: black;}
+#logo{
+    width: 180px;
+    height: 220px;
+
+}
+    
+nav {
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    font-size: 30px;
+    /* este código tira as bolinhas */
+    list-style: none;
+}
+
+#container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    color: black;
+}
+
+#pizzaria{
+    width: 350px;
+}
+
+#container2{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
